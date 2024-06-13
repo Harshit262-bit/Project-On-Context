@@ -13,6 +13,7 @@ function Login() {
         //when we press submit value has been placed any where so we need to prevent that value 
             e.preventDefault()
             setUser({username, password})
+            console.log(username)
     }
   return (
     <div>
